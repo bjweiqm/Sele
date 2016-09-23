@@ -66,7 +66,5 @@ def run():
                 f.write('大小: ' + neirong[2].encode('utf-8') + '\n')
                 f.write('-' * 66 + '\n')
 
-
-
 if __name__ == '__main__':
     run()
