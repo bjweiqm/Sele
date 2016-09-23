@@ -219,7 +219,7 @@ print foo.__name__
 """
 
 
-# 使用装饰器做缓存
+# 使用装饰器做缓存 没研究明白
 
 from functools import wraps
 
