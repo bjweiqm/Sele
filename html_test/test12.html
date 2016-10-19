@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>定义css样式(css选择器)</title>
+        <style type="text/css">
+            /*p{
+                background-color: bisque;
+                color: red;
+                font-size: 20px;
+
+            }
+            .p{
+                color: coral;
+                font-size: 20px;
+            }
+            .div1{
+                height: 200px;
+                width: 400px;
+                background-color: darkgray;
+                color: rosybrown;
+                font-size: 30px;
+            }
+            .div2{
+                color: chartreuse;
+            }
+            .div2 p{
+                color: cadetblue;
+            }
+            #id1{
+                color: chocolate;
+            }
+
+            div{
+                height: 200px;
+                width: 600px;
+                background-color: darkgray;
+            }
+            */
+            div{
+                background-color: peachpuff;
+                height: 200px;
+                width: 400px;
+            }
+            .div1{
+                background: beige;
+            }
+            a:link {
+                color: darkgray;
+            }     /*正常连接样式*/
+            a:hover {
+                color: cadetblue;
+            }     /*鼠标放上去的样式*/
+            a:active {
+                color: chartreuse;
+            }    /*选择连接时的样式*/
+            a:visited {
+                color: blue;
+            }   /*已经访问过的链接样式*/
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <a href="http://www.baidu.com">百度</a>
+            <a href="http://www.baidu.com/ss">百度1</a>
+            <a href="http://www.baidu.com/sss">百度2</a>
+        </div>
+        <div class="div2">
+            <p>css选择器样式p下的</p>
+            <div class="div1">css选择器样式div中的</div>
+        </div>
+        <div id="id1">
+            id定义样式是使用#号开头
+        </div>
+    </body>
+</html>
